@@ -1,7 +1,7 @@
 <template>
   <div>
     <home-header></home-header>
-    <home-swiper :list="swiperList"></home-swiper>
+    <home-swiper></home-swiper>
   </div>
 </template>
 
@@ -13,11 +13,6 @@ export default {
   components: {
     HomeHeader,
     HomeSwiper
-  },
-  data () {
-    return {
-      swiperList: [{id: 1, imgUrl: '123'}]
-    }
   }
 }
 </script>
